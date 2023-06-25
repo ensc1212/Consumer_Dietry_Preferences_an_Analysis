@@ -569,14 +569,14 @@ if selected == 'Consumers':
         else:
             col1, col2, col3 = st.columns(3)
             with col1:
-                paleo_chips = images_path+'/images/paleo_chips.webp'
-                st.image(images_path+'keto_nut_mix.webp', width=400)
+                keto_nut_mix = images_path+'/images/keto_nut_mix.webp'
+                st.image(keto_nut_mix, width=400)
                 st.markdown('<p style="font-size:20px; text-align:left;">Keto Cookies</p>', unsafe_allow_html=True)
             with col2:
-                paleo_chips = images_path+'/images/paleo_chips.webp'
-                st.image(images_path+'keto_cookies.webp', width=400)
+                keto_cookies = images_path+'/images/keto_cookies.webp'
+                st.image(keto_cookies, width=400)
                 st.markdown('<p style="font-size:20px; text-align:left;">Keto Cookies</p>', unsafe_allow_html=True)
             with col3:
-                paleo_chips = images_path+'/images/paleo_chips.webp'
-                st.image(images_path+'keto_bar.webp', width=400)
+                keto_bar = images_path+'/images/keto_bar.webp'
+                st.image(keto_bar, width=400)
                 st.markdown('<p style="font-size:20px; text-align:left;">Keto Bar</p>', unsafe_allow_html=True)
