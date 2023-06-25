@@ -25,7 +25,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 
 # import dataset
-df = pd.read_csv('data/final_df.csv',lineterminator='\n')
+df = pd.read_csv('consumer_dietry_preferences_an_analysis/streamlit/data/final_df.csv',lineterminator='\n')
 
 # load the models
 model = pickle.load(open('models/model.pkl', 'rb'))
