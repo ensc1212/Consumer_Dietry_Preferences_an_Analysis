@@ -27,13 +27,12 @@ from sklearn.linear_model import LogisticRegression
 from pathlib import Path
 
 # import dataset
-path = Path(__file__).parent / "data/final_df.csv"
-df = pd.read_csv(path,lineterminator='\n')
+data_path = Path(__file__).parent / 'data/final_df.csv'
+df = pd.read_csv(data_path,lineterminator='\n')
 
 # load the models
-model = pickle.load(open('models/model.pkl', 'rb'))
-with open('models/pipe_gridsearch.pkl', 'rb') as pipe_gridsearch: # open a file, where you stored the pickled data
-    pipe_gridsearch = pickle.load(pipe_gridsearch)
+model_path = Path(__file__).parent / 'models/model.pkl'
+model = pickle.load(open(model_path, 'rb'))
 
 # definitions / lists
 consumer_preference_options = ['Keto','Paleo']
@@ -71,16 +70,6 @@ def clean_text(text):
     tokens = re.split('\W+', text)
     text = ' '.join([wn.lemmatize(word) for word in tokens if word not in stopwords])
     return text
-
-def run_analysis(txt):
-    df = pd.DataFrame()
-    df['txt'] = [txt]
-    result = pipe_gridsearch.predict(df['txt'])
-    if result == ['keto']:
-        result = 'Keto'
-    else:
-        result = 'Paleo'
-    return result
 
 def top_n_grams(corpus, n=20, ngram=(1,1), stop=None):
     # Create a CountVectorizer object with specified n-gram range and stop words
