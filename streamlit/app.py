@@ -544,7 +544,7 @@ if selected == 'Consumers':
     user_comment = st.text_area('Enter here')
 
     # path for images
-    path = '/images/paleo_puffs.png'
+    
     images_path = os.path.dirname(__file__)
     
     # Cleaning the string
