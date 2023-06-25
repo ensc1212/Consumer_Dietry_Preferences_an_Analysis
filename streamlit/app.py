@@ -26,6 +26,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 
 from pathlib import Path
+import os.path
 
 # import dataset
 data_path = Path(__file__).parent / 'data/final_df.csv'
@@ -543,7 +544,8 @@ if selected == 'Consumers':
     user_comment = st.text_area('Enter here')
 
     # path for images
-    images_path = os.path.images(__file__)
+    path = '/images'
+    images_path = os.path.dirname(__file__)
     
     # Cleaning the string
     cleaned_user_comment = clean_text(user_comment)
