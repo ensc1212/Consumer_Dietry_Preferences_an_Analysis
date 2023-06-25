@@ -556,7 +556,7 @@ if selected == 'Consumers':
             col1, col2, col3 = st.columns(3)
             with col1:
                 paleo_puffs = images_path+'/images/paleo_puffs.png'
-                st.image(paleo_puffs, width=300)
+                st.image(paleo_puffs, width=250)
                 st.markdown('<p style="font-size:20px; text-align:left;">Paleo Puffs</p>', unsafe_allow_html=True)
             with col2:
                 paleo_chips = images_path+'/images/paleo_chips.webp'
