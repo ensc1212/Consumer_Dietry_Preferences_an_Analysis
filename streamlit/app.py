@@ -555,28 +555,28 @@ if selected == 'Consumers':
         if prediction == 1:
             col1, col2, col3 = st.columns(3)
             with col1:
-                paleo_puffs = images_path+'paleo_puffs.png'
+                paleo_puffs = images_path+'/images/paleo_puffs.png'
                 st.image(paleo_puffs, width=400)
                 st.markdown('<p style="font-size:20px; text-align:left;">Paleo Puffs</p>', unsafe_allow_html=True)
             with col2:
-                paleo_chips = images_path+'paleo_chips.webp'
+                paleo_chips = images_path+'/images/paleo_chips.webp'
                 st.image(paleo_chips, width=300)
                 st.markdown('<p style="font-size:20px; text-align:left;">Paleo Chips</p>', unsafe_allow_html=True)
             with col3:
-                paleo_muesli = images_path+'paleo_muesli.png'
+                paleo_muesli = images_path+'/images/paleo_muesli.png'
                 st.image(paleo_muesli, width=250)
                 st.markdown('<p style="font-size:20px; text-align:left;">Paleo Muesli</p>', unsafe_allow_html=True)
         else:
             col1, col2, col3 = st.columns(3)
             with col1:
-                paleo_chips = images_path+'paleo_chips.webp'
+                paleo_chips = images_path+'/images/paleo_chips.webp'
                 st.image(images_path+'keto_nut_mix.webp', width=400)
                 st.markdown('<p style="font-size:20px; text-align:left;">Keto Cookies</p>', unsafe_allow_html=True)
             with col2:
-                paleo_chips = images_path+'paleo_chips.webp'
+                paleo_chips = images_path+'/images/paleo_chips.webp'
                 st.image(images_path+'keto_cookies.webp', width=400)
                 st.markdown('<p style="font-size:20px; text-align:left;">Keto Cookies</p>', unsafe_allow_html=True)
             with col3:
-                paleo_chips = images_path+'paleo_chips.webp'
+                paleo_chips = images_path+'/images/paleo_chips.webp'
                 st.image(images_path+'keto_bar.webp', width=400)
                 st.markdown('<p style="font-size:20px; text-align:left;">Keto Bar</p>', unsafe_allow_html=True)
