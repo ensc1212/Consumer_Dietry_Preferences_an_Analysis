@@ -19,6 +19,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.pipeline import Pipeline
