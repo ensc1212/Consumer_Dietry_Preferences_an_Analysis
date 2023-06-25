@@ -79,7 +79,7 @@ Upon revisiting the problem statement, we are reminded of our two primary object
 
 1) <b>Dynamic Tracking</b>
 
-    - By utilizing our final binary classifier, we can conduct an in-depth analysis of the user's historical comments and reviews. Leveraging this analysis, our website will seamlessly generate personalized product recommendations, meticulously curated to match their distinctive requirements and preferences. By understanding their ever changing preferences, we can develop and suggest products that align with their individual, and evolving requirements, ensuring a more satisfying and customized experience. 
+    - By utilizing our final binary classifier, we can conduct an in-depth analysis of the user's historical comments and reviews. Leveraging this analysis, our website will seamlessly generate personalized product recommendations, meticulously curated to match their distinctive requirements and preferences. By understanding their ever changing preferences, we can develop and suggest products that align with their individual, and evolving requirements, ensuring a more satisfying and customized experience. Our website can be found at: https://consumer-dietry-preferences-an-analysis.streamlit.app/ (Note: all products recommended are sample products)
 
         * Based on our insights, the Keto audience is likely to find products that offer convenient, high-fat, low-carb meal options attractive. We can focus on developing and promoting meals designed to include a combination of macronutrients in appropriate proportions, whilst incorporating a variety of nutrient-dense foods as well as supplements with a focus on micronutrients to ensure our customers are getting a wide range of essential vitamins, minerals, and antioxidants. 
 
