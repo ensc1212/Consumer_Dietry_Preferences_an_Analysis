@@ -571,12 +571,12 @@ if selected == 'Consumers':
             with col1:
                 keto_nut_mix = images_path+'/images/keto_nut_mix.webp'
                 st.image(keto_nut_mix, width=400)
-                st.markdown('<p style="font-size:20px; text-align:left;">Keto Cookies</p>', unsafe_allow_html=True)
+                st.markdown('<p style="font-size:20px; text-align:centre;">Keto Cookies</p>', unsafe_allow_html=True)
             with col2:
                 keto_cookies = images_path+'/images/keto_cookies.webp'
                 st.image(keto_cookies, width=400)
-                st.markdown('<p style="font-size:20px; text-align:left;">Keto Cookies</p>', unsafe_allow_html=True)
+                st.markdown('<p style="font-size:20px; text-align:centre;">Keto Cookies</p>', unsafe_allow_html=True)
             with col3:
                 keto_bar = images_path+'/images/keto_bar.webp'
                 st.image(keto_bar, width=400)
-                st.markdown('<p style="font-size:20px; text-align:left;">Keto Bar</p>', unsafe_allow_html=True)
+                st.markdown('<p style="font-size:20px; text-align:centre;">Keto Bar</p>', unsafe_allow_html=True)
